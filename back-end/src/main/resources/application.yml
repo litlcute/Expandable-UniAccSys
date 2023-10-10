@@ -1,0 +1,30 @@
+# 公共配置文件
+spring:
+  application:
+    name: user-center-backend
+  # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/yue
+    username: root
+    password: Wananny0328
+  # session 失效时间
+  session:
+    timeout: 86400
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+  global-config:
+    db-config:
+      # 这段配置与MyBatis-Plus的逻辑删除功能有关。
+      #逻辑删除是指在数据库中不真正删除数据行，
+      #而是通过修改某个字段的值来标记该行数据已被"删除"。
+      #这样做的好处是可以保留历史数据，以备后续需要查看或恢复
+      logic-delete-field: isDelete # 全局逻辑删除的实体字段名(since 3.3.0,配置后可以忽略不配置步骤2)
+      logic-delete-value: 1 # 逻辑已删除值(默认为 1)
+      logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
+
