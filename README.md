@@ -78,11 +78,11 @@ This project is initialized with [Yue Niu](https://github.com/litlcute/Backstage
 
 ![page2](./readmeImage/page2.png)
 
-![](C:\Users\User\Documents\GitHub\BackstageUsermanager\readmeImage\page3.png)
+![](./readmeImage/page3.png)
 
-![page4](C:\Users\User\Documents\GitHub\BackstageUsermanager\readmeImage\page4.png)
+![page4](./readmeImage/page4.png)
 
-![page5](C:\Users\User\Documents\GitHub\BackstageUsermanager\readmeImage\page5.png)
+![page5](./readmeImage/page5.png)
 
 ## Contributors
 
