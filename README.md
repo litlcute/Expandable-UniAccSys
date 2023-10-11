@@ -1,7 +1,11 @@
-# User Center Management System
+# **Expandable UniAccSys（Universal Account System）**
 
 ## Overview
-The User Center Management System is a comprehensive solution designed to manage user registrations, login, and data retrieval functionalities in an efficient and secure manner. Leveraging a tech stack that includes Spring Boot, React, MySQL, MyBatis, Docker, and Nginx, this project presents a robust and scalable architecture, ensuring a smooth, unified, and scalable application delivery environment.
+**"An Elegantly Modular User Management System"**
+
+Designed and developed a full-stack, modular user management system with a robust Spring Boot backend and a responsive React frontend. Explicitly engineered with scalable architecture, "Extensible UserCenter" ensures seamless integration of additional modules and features, presenting a future-proof solution to complex user management and authentication needs across varied enterprise operations.
+
+The UniAccSys is a comprehensive solution designed to manage user registrations, login, and data retrieval functionalities in an efficient and secure manner. Leveraging a tech stack that includes Spring Boot, React, MySQL, MyBatis, Docker, and Nginx, this project presents a robust and scalable architecture, ensuring a smooth, unified, and scalable application delivery environment.
 
 ## Features
 - **User Registration & Management**: Efficiently handle user sign-ups and manage user data.
@@ -15,12 +19,12 @@ The User Center Management System is a comprehensive solution designed to manage
 - **Frontend**: React, Ant Design
 - **Backend**: Spring Boot, MyBatis
 - **Database**: MySQL
-- **Containerization**: Docker
+- **Containerization**: Docker， aaPanel
 - **Web Server**: Nginx
 
 ## Getting Started
 
-This project is initialized with [Yue Niu](https://github.com/litlcute/UserCenterManager). Follow is the quick guide for how to use.
+This project is initialized with [Yue Niu](https://github.com/litlcute/BackstageUsermanager). Follow is the quick guide for how to use.
 
 ### Prerequisites
 - Ensure that you have Docker, Java, Node.js, and Nginx installed.
@@ -57,28 +61,28 @@ This project is initialized with [Yue Niu](https://github.com/litlcute/UserCente
 
 3. Back-end setup
 
+   --firstly build the jar package by maven ->package func
+
+   --navigate to back-end folder and then target folder
+
+   --and then run the jar file
+
    ```sh
-   run application.yml file to run backend server locally
+   java -jar .\user-center-backend-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod
    ```
 
-   
-
-4. Or you can Visit by IP in your browser
-
-   ```
-   use ip 1.117.62.199 in your browser
-   it may take a little bit long time since this app is running on a cloud in Shanghai
-   ```
 
 ## Demo
-
-Provide details about how to use your system and any URL/routes to access its features.
 
 ![page1](./readmeImage/page1.png)
 
 ![page2](./readmeImage/page2.png)
 
+![](C:\Users\User\Documents\GitHub\BackstageUsermanager\readmeImage\page3.png)
 
+![page4](C:\Users\User\Documents\GitHub\BackstageUsermanager\readmeImage\page4.png)
+
+![page5](C:\Users\User\Documents\GitHub\BackstageUsermanager\readmeImage\page5.png)
 
 ## Contributors
 
@@ -90,6 +94,5 @@ Include credits, inspiration, or reference if any.
 
 ## Contact
 
-- Your Name - [Yue Niu]
-- Project Link: https://github.com/litlcute/UserCenterManager
+- Your Name - [[Yue Niu](www.yueniu.me)]
 
