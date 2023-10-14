@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # **Expandable UniAccSys（Universal Account System）**
 
 ## Overview
@@ -96,3 +98,6 @@ Include credits, inspiration, or reference if any.
 
 - Your Name - [[Yue Niu](www.yueniu.me)]
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
